@@ -10,7 +10,8 @@ module.exports = {
         "dark-1": "#1C1C1C",
         "dark-3": "#777777",
         "dark-7": "#F4F4F4",
-        "linear-gradient": "linear-gradient(to left, #FF0000, #FF8938)"
+        "fresh-lemon": "rgba(87, 118, 57, 0.1)",
+        "fresh-orange": "rgba(230, 166, 35, 0.1)"
       }
     },
   },
