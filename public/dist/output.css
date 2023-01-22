@@ -1,14 +1,16 @@
 :root {
+  /* REDISH GRADIENT */
   --red-gradient-one: linear-gradient(to left, #FF0000, #FF8938);
   --red-gradient-two: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+  /* LIGHT GRADIENT */
   --light-gradient-one: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
   --light-gradient-two: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0) 100%);
   --light-gradient-three: linear-gradient(270deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 137, 56, 0.1) 100%);
 }
 
-/*
-! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
-*/
+/* MAKE GRADIENT COMPONENT */
+
+/* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -541,6 +543,8 @@ video {
   background-image: var(--light-gradient-three);
 }
 
+/* TEXT GRADIENT */
+
 .text-gradient {
   background-image: var(--red-gradient-one);
   -webkit-background-clip: text;
@@ -580,44 +584,8 @@ video {
   left: -1.25rem;
 }
 
-.top-32 {
-  top: 8rem;
-}
-
-.top-\[50\%\] {
-  top: 50%;
-}
-
-.top-\[5\%\] {
-  top: 5%;
-}
-
-.top-\[\%\] {
-  top: %;
-}
-
-.top-\[2\%\] {
-  top: 2%;
-}
-
 .top-\[25\%\] {
   top: 25%;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.bottom-\[\] {
-  bottom: ;
-}
-
-.bottom-\[2\] {
-  bottom: 2;
-}
-
-.bottom-\[25\] {
-  bottom: 25;
 }
 
 .bottom-\[25\%\] {
@@ -640,14 +608,14 @@ video {
   grid-row: span 2 / span 2;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .mt-1 {
@@ -674,28 +642,12 @@ video {
   height: 3.5rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-60 {
-  height: 15rem;
-}
-
 .w-4 {
   width: 1rem;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-7 {
+  width: 1.75rem;
 }
 
 .w-14 {
@@ -704,14 +656,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-7 {
-  width: 1.75rem;
 }
 
 .max-w-screen-lg {
@@ -793,10 +737,6 @@ video {
   gap: 0.75rem;
 }
 
-.gap-0 {
-  gap: 0px;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -833,110 +773,6 @@ video {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[u\] {
-  background-color: u;
-}
-
-.bg-\[ur\] {
-  background-color: ur;
-}
-
-.bg-\[url\] {
-  background-color: url;
-}
-
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'\.\'\)\] {
-  background-image: url('.');
-}
-
-.bg-\[url\(\'\.\/\'\)\] {
-  background-image: url('./');
-}
-
-.bg-\[url\(\'\.\/p\'\)\] {
-  background-image: url('./p');
-}
-
-.bg-\[url\(\'\.\/pu\'\)\] {
-  background-image: url('./pu');
-}
-
-.bg-\[url\(\'\.\/pub\'\)\] {
-  background-image: url('./pub');
-}
-
-.bg-\[url\(\'\.\/publ\'\)\] {
-  background-image: url('./publ');
-}
-
-.bg-\[url\(\'\.\/publi\'\)\] {
-  background-image: url('./publi');
-}
-
-.bg-\[url\(\'\.\/public\'\)\] {
-  background-image: url('./public');
-}
-
-.bg-\[url\(\'\.\/public\/\'\)\] {
-  background-image: url('./public/');
-}
-
-.bg-\[url\(\'\.\/public\/i\'\)\] {
-  background-image: url('./public/i');
-}
-
-.bg-\[url\(\'\.\/public\/im\'\)\] {
-  background-image: url('./public/im');
-}
-
-.bg-\[url\(\'\.\/public\/ima\'\)\] {
-  background-image: url('./public/ima');
-}
-
-.bg-\[url\(\'\.\/public\/imag\'\)\] {
-  background-image: url('./public/imag');
-}
-
-.bg-\[url\(\'\.\/public\/image\'\)\] {
-  background-image: url('./public/image');
-}
-
-.bg-\[url\(\'\.\/public\/image\/\'\)\] {
-  background-image: url('./public/image/');
-}
-
-.bg-\[url\(\'\.\/public\/images\/banner\.png\'\)\] {
-  background-image: url('./public/images/banner.png');
-}
-
-.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('/img/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/public\/images\/banner\.png\'\)\] {
-  background-image: url('/public/images/banner.png');
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .p-2 {
@@ -993,24 +829,14 @@ video {
   font-family: Manrope, sans-serif;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-xl {
@@ -1023,16 +849,26 @@ video {
   line-height: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .font-semibold {
@@ -1044,14 +880,14 @@ video {
   color: rgb(28 28 28 / var(--tw-text-opacity));
 }
 
-.text-dark-2 {
-  --tw-text-opacity: 1;
-  color: rgb(119 119 119 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-dark-2 {
+  --tw-text-opacity: 1;
+  color: rgb(119 119 119 / var(--tw-text-opacity));
 }
 
 .text-white-1 {
@@ -1070,6 +906,17 @@ video {
 
 .opacity-30 {
   opacity: 0.3;
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-fresh-lemon {
+  --tw-shadow-color: rgba(87, 118, 57, 0.1);
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .focus\:border-dark-1:focus {
@@ -1147,14 +994,6 @@ video {
     order: 2;
   }
 
-  .md\:w-1 {
-    width: 0.25rem;
-  }
-
-  .md\:w-10 {
-    width: 2.5rem;
-  }
-
   .md\:-translate-x-20 {
     --tw-translate-x: -5rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1180,10 +1019,6 @@ video {
     gap: 1.25rem;
   }
 
-  .md\:gap-1 {
-    gap: 0.25rem;
-  }
-
   .md\:p-5 {
     padding: 1.25rem;
   }
@@ -1195,15 +1030,5 @@ video {
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 }

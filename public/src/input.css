@@ -1,16 +1,14 @@
 :root {
+    /* REDISH GRADIENT */
     --red-gradient-one: linear-gradient(to left, #FF0000, #FF8938);
     --red-gradient-two: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
-
+    /* LIGHT GRADIENT */
     --light-gradient-one: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
     --light-gradient-two: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0) 100%);
     --light-gradient-three: linear-gradient(270deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 137, 56, 0.1) 100%);
 }
 
-
-
-
-
+/* MAKE GRADIENT COMPONENT */
 @layer components {
     .red-gradient-one {
         background-image: var(--red-gradient-one);
@@ -27,7 +25,7 @@
     .light-gradient-three {
         background-image: var(--light-gradient-three);
     }
-
+    /* TEXT GRADIENT */
     .text-gradient {
        @apply red-gradient-one bg-clip-text text-transparent  
     }
