@@ -1,0 +1,22 @@
+:root {
+    --red-gradient: linear-gradient(to left, #FF0000, #FF8938);
+    --light-gradient: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+}
+
+
+
+
+
+@layer components {
+    .red-gradient {
+        background-image: var(--red-gradient);
+    }
+    .light-gradient {
+        background-image: var(--light-gradient);
+    }
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
